@@ -86,7 +86,7 @@
 
 +enable networkmanager:sudo systemctl enable NetworkManager --now
 
-+nmtui de ket noi mang
++nmtui de ket noi mang (nho tat iwd:sudo systemctl disable --now iwd)
 
  ----------------------------------------------------------------
  
