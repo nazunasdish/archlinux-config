@@ -68,6 +68,8 @@
 +cau hinh /etc/greetd/sway-config
 
 +cau hinh /etc/greetd/regreet.toml
+
++cau hinh ~/.config/sway/config
  
 (reboot)
  
