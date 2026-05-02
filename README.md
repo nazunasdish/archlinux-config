@@ -103,7 +103,7 @@
 
  -audio
  
-	systemctl enable --now pipewire pipewire-pulse wireplumber
+	systemctl --user enable --now pipewire pipewire-pulse wireplumber
 
  ------------------------------------------------------------------
  
