@@ -59,6 +59,10 @@
 
 +:eww (yay)
 
++:cliphist
+
++:wl-clipboard
+
 -----------------------------------------------------------------
 
 -cai dat greetd,regreet,sway
@@ -111,7 +115,13 @@
 	enable:systemctl enable --now bluetooth
 
  -----------------------------------------------------------------
- 
+
+ -clipboard 
+	+khoi dong cliphist trong sway (co trong file ~/.config/sway/config. ###cliphist)
+	+gan keybind:trong sway config (#clipboard)
+
+	
+ --------------------------------------------------------------
 (reboot)
  
 	
