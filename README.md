@@ -81,6 +81,15 @@
 
 
 )
++Application Compatibility:them cai nay vao ~/.bashrc de mot so ung dung tuong thich (
+
+	export MOZ_ENABLE_WAYLAND=1
+	
+	export QT_QPA_PLATFORM=wayland
+	
+	export GDK_BACKEND=wayland,x11
+	
+)
 
 ----------------------------------------------------------------
 -network
