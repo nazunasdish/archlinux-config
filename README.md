@@ -89,11 +89,11 @@
 )
 +Application Compatibility:them cai nay vao /etc/environment de mot so ung dung tuong thich (
 
-	export MOZ_ENABLE_WAYLAND=1
+	MOZ_ENABLE_WAYLAND=1
 	
-	export QT_QPA_PLATFORM=wayland
+	QT_QPA_PLATFORM=wayland
 	
-	export GDK_BACKEND=wayland,x11
+	GDK_BACKEND=wayland,x11
 	
 )
 
@@ -127,20 +127,6 @@
 	
  --------------------------------------------------------------
 
--ibus go tieng viet
-	+:them vao trong /etc/environment (
-
-		GTK_IM_MODULE=ibus
-		
-		QT_IM_MODULE=ibus
-	
-		XMODIFIERS=@im=ibus
-	
-	)
-
-	+tu khoi dong cung sway( trong file ~/.config/sway/config #ibus)
-
-	+set up: ibus-setup
 
 
  
