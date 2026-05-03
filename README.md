@@ -87,15 +87,8 @@
 
 
 )
-+Application Compatibility:them cai nay vao /etc/environment de mot so ung dung tuong thich (
 
-	MOZ_ENABLE_WAYLAND=1
-	
-	QT_QPA_PLATFORM=wayland
-	
-	GDK_BACKEND=wayland,x11
-	
-)
++them bien moi truong (#wayland,sway trong file /etc/environment)
 
 ----------------------------------------------------------------
 
