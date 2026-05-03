@@ -118,6 +118,13 @@
 	+khoi dong cliphist trong sway (co trong file ~/.config/sway/config. ###cliphist)
 	+gan keybind:trong sway config (#clipboard)
 
+-Fcitx5 (xoa ibus neu co)
+	
+	+them bien moi truong (#fcitx trong /etc/environment)
+
+	+tu khoi dong cung sway:(#fcitx trong ~/.config/sway/config)
+
+	+reboot , set up:fcitx5-configtool
 	
  --------------------------------------------------------------
 
