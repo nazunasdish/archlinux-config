@@ -138,22 +138,23 @@
 	
  --------------------------------------------------------------
 
-	-apparmor
+-apparmor
 
-		+enable:systemctl enable apparmor
+	+enable:systemctl enable apparmor
 
-				systemctl enable auditd
+			systemctl enable auditd
 
-		+chinh lai boot(doi voi truong hop bat uki(unified kernel image))(
+	+chinh lai boot(doi voi truong hop bat uki(unified kernel image))(
 
-			sudo nano /etc/kernel/cmdline
+		sudo nano /etc/kernel/cmdline
 
-			them vao dong root:lsm=landlock,lockdown,yama,integrity,apparmor,bpf
+		them vao dong root:lsm=landlock,lockdown,yama,integrity,apparmor,bpf
 
-			capnhat:sudo mkinitcpio -P
+		capnhat:sudo bootctl update
+				sudo mkinitcpio -P
 
-			reboot
-		)
+		reboot
+	)
 
 
  
