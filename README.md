@@ -71,6 +71,7 @@
 
 +strawberry (yay)
 
++apparmor
 
 -----------------------------------------------------------------
 
@@ -137,6 +138,22 @@
 	
  --------------------------------------------------------------
 
+	-apparmor
+
+		+enable:systemctl enable apparmor
+
+				systemctl enable auditd
+
+		+chinh lai boot(doi voi truong hop bat uki(unified kernel image))(
+
+			sudo nano /etc/kernel/cmdline
+
+			them vao dong root:lsm=landlock,lockdown,yama,integrity,apparmor,bpf
+
+			capnhat:sudo mkinitcpio -P
+
+			reboot
+		)
 
 
  
