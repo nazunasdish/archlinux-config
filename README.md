@@ -77,6 +77,8 @@
 
 +:libreoffice-still
 
++:maple-mono-nf-cn-unhinted (yay)
+
 -----------------------------------------------------------------
 
 -cai dat greetd,regreet,sway
@@ -141,6 +143,7 @@
 	+kitty lam terminal:gsettings set org.cinnamon.desktop.default-applications.terminal exec 'kitty'
 	
  --------------------------------------------------------------
+ 
 
 -apparmor
 
