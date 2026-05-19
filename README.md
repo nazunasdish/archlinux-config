@@ -79,6 +79,8 @@
 
 +:maple-mono-nf-cn-unhinted (yay)
 
++:guvcview
+
 -----------------------------------------------------------------
 
 -cai dat greetd,regreet,sway
