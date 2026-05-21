@@ -145,6 +145,8 @@
 	+kitty lam terminal:gsettings set org.cinnamon.desktop.default-applications.terminal exec 'kitty'
 	
  --------------------------------------------------------------
+
+ -firefox
  
 
 -apparmor
