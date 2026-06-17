@@ -1,22 +1,22 @@
--wifi:iwd (for archiso)
+-wifi:
 
-+: systemctl start iwd
++:systemctl start iwd
 
-+interactive promt: iwctl
++:iwctl
 
 +:station list
 
-+:station name scan
++:station *name* scan
   
-+:station name get-networks
++:station *name* get-networks
 
-+:station name connect SSID
++:station *name* connect *SSID*
 
-+:ping google.com (check)
++:quit
 
--arinstall(archiso)
+-arinstall
 
-+: archinstall (bat dau install)
++:archinstall
 
 
 -package:
