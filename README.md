@@ -82,9 +82,11 @@ exec "regreet; swaymsg exit"
 
 ---------------------------------------
 
+package:bluez, bluez-utils, blueman
 
+-:systemctl enable --now bluetooth
 
-
+(neu da chon bat bluetooth tu luc archinstall chi can cai them gui la blueman)
 
 
 
@@ -108,9 +110,6 @@ exec "regreet; swaymsg exit"
 --------------------------------------------------------------------
 
 +:man
-
-
-+blutooth:bluez, bluez-utils, blueman
 
 +:fastfetch
 
@@ -160,24 +159,6 @@ exec "regreet; swaymsg exit"
 
 -cai dat greetd,regreet,sway
 
-+enable greetd service:systemctl enable greetd 
-
-+cau hinh /etc/greetd/config.toml
-
-+cau hinh /etc/greetd/sway-config
-
-+cau hinh /etc/greetd/regreet.toml
-
-+cau hinh ~/.config/sway/config(
-
-	copy default truoc de dung 
-	
-	:mkdir -p ~/.config/sway
-	
-	:cp /etc/sway/config ~/.config/sway/config
-
-
-)
 
 +them bien moi truong (#wayland,sway trong file /etc/environment)
 
@@ -197,9 +178,6 @@ exec "regreet; swaymsg exit"
 
  ------------------------------------------------------------------
 
--bluetooth
-
-	enable:systemctl enable --now bluetooth
 
  -----------------------------------------------------------------
 
