@@ -14,6 +14,8 @@
 
 +:quit
 
+---------------------------------------
+
 -arinstall
 
 +:archinstall
@@ -28,10 +30,8 @@ power management:power-profiles-daemon
 
 firewall:ufw
 
-
-
-
-
+--------------------------------------
+package:sway,swaybg,waybar,xorg-xwayland,swaylock,swayidle,nano
 
 
 
@@ -65,11 +65,8 @@ firewall:ufw
 
 --------------------------------------------------------------------
 
-+:sway,swaybg,waybar,xorg-xwayland,swaylock,swayidle
-
 +:man
 
-+:nano
 
 +blutooth:bluez, bluez-utils, blueman
 
