@@ -31,7 +31,7 @@ power management:power-profiles-daemon
 firewall:ufw
 
 --------------------------------------
-package:sway,swaybg,waybar,xorg-xwayland,swaylock,swayidle,nano
+package:sway,swaybg,waybar,xorg-xwayland,swaylock,swayidle,nano,firefox,greetd,greetd-regreet,kitty,wofi
 
 
 
@@ -72,11 +72,6 @@ package:sway,swaybg,waybar,xorg-xwayland,swaylock,swayidle,nano
 
 +:fastfetch
 
-+:firefox
-
-+:greetd, greete-regreet
-
-+:kitty
 
 +:nemo,nemo-media-columns
 
@@ -84,7 +79,6 @@ package:sway,swaybg,waybar,xorg-xwayland,swaylock,swayidle,nano
 
 +:pipewire, pavucontrol, pipewire-audio
 
-+:wofi
 
 +:mako
 
