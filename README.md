@@ -58,6 +58,25 @@ user = "greeter"
 
 ```
 
+-cau hinh tam thoi /etc/greetd/sway-config:
+
+```
+
+exec "regreet; swaymsg exit"
+
+```
+
+-cau hinh tam thoi cho sway:
+
++:mkdir -p ~/.config/sway
+
++:cp /etc/sway/config ~/.config/sway/config
+
++nano ~/.config/sway/config roi sua nhu sau:
+
+++: set $term foot -> set $term kitty
+
+++: set $menu wmenu-run -> set $menu wofi --grun
 
 
 
