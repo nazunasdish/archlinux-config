@@ -30,6 +30,8 @@ power management:power-profiles-daemon
 
 firewall:ufw
 
+bluetooth, printservice,... on
+
 --------------------------------------
 
 -package:sway,swaybg,waybar,xorg-xwayland,swaylock,swayidle,nano,firefox,greetd,greetd-regreet,kitty,wofi
@@ -78,15 +80,14 @@ exec "regreet; swaymsg exit"
 
 ++: set $menu wmenu-run -> set $menu wofi --show drun
 
+++:bar{........} -> exec waybar
 -reboot
 
 ---------------------------------------
 
-package:bluez, bluez-utils, blueman
+package:blueman,pavucontrol,fastfetch,nemo
 
--:systemctl enable --now bluetooth
-
-(neu da chon bat bluetooth tu luc archinstall chi can cai them gui la blueman)
+---------------------------------------
 
 
 
@@ -96,30 +97,10 @@ package:bluez, bluez-utils, blueman
 
 
 
-
-
-
-
-
-
-
-
-
--package:
 
 --------------------------------------------------------------------
 
-+:man
-
-+:fastfetch
-
-
-+:nemo,nemo-media-columns
-
 +:networkmanager, network-manager-applet, nm-connection-editor
-
-+:pipewire, pavucontrol, pipewire-audio
-
 
 +:mako
 
@@ -154,13 +135,6 @@ package:bluez, bluez-utils, blueman
 +:maple-mono-nf-cn-unhinted (yay)
 
 +:guvcview
-
------------------------------------------------------------------
-
--cai dat greetd,regreet,sway
-
-
-+them bien moi truong (#wayland,sway trong file /etc/environment)
 
 ----------------------------------------------------------------
 
