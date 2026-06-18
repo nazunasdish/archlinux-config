@@ -38,6 +38,7 @@ firewall:ufw
 
 -cau hinh tam thoi /etc/greetd/config.toml:
 
+```
  [terminal]
 # The VT to run the greeter on. Can be "next", "current" or a number
 # designating the VT.
@@ -55,9 +56,7 @@ command = "sway --config /etc/greetd/sway-config" #sua dong nay
 # in the `video` group.
 user = "greeter"
 
-
-
-
+```
 
 
 
