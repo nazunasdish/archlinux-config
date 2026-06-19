@@ -140,18 +140,27 @@ reboot
 
 --------------------------------------------------------------------
 
+package:cliphist
+
+-swayconfig:
+
+```
+exec wl-paste --type text --watch cliphist store
+exec wl-paste --type image --watch cliphist store
+bindsym $mod+v exec cliphist list | wofi --dmenu | cliphist decode | wl-copy
+```
+
+
+
+
+
+
 
 +:mako
 
 +:code (vscode)
 
 +:eww (yay)
-
-+:cliphist
-
-+:wl-clipboard
-
-+:fcitx5-im fcitx5-bamboo fcitx5-configtool
 
 +:gvfs-mtp
 
@@ -165,12 +174,6 @@ reboot
 
 +:guvcview
 
- -----------------------------------------------------------------
-
- -clipboard 
- 
-	+khoi dong cliphist trong sway (co trong file ~/.config/sway/config. ###cliphist)
-	+gan keybind:trong sway config (#clipboard)
  --------------------------------------------------------------
 
 -apparmor
