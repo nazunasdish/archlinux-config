@@ -119,9 +119,9 @@ fc-cache -fv
 
 -----------------------------------------------
 
--sudo pacman -S fcitx5 fcitx5-unikey fcitx5-configtool fcitx5-gtk fcitx5-qt
+-package fcitx5 fcitx5-unikey fcitx5-configtool fcitx5-gtk fcitx5-qt
 
--sudo nano /etc/environment:
+-them vao /etc/environment:
 
 ```
 GTK_IM_MODULE=fcitx
