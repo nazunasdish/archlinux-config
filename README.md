@@ -85,6 +85,26 @@ exec "regreet; swaymsg exit"
 
 ---------------------------------------
 
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
+---------------------------------------
+
+package:polkit-gnome
+them vao sway config "exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+
+----------------------------------------
+
+
+
+
+
+
+
+
+
 package:blueman,pavucontrol,fastfetch,nemo
 
 ---------------------------------------
