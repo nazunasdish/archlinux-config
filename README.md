@@ -97,12 +97,19 @@ makepkg -si
 
 package:polkit-gnome
 
-them vao sway config "exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+them vao swayconfig "exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 
 ----------------------------------------
 
+package:networkmanager, network-manager-applet
 
+sudo systemctl disable --now iwd.service
 
+sudo systemctl enable --now NetworkManager.service
+
+them vao swayconfig "exec nm-applet --indicator"
+
+reboot
 
 
 
