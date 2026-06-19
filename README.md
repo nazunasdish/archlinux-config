@@ -119,6 +119,31 @@ fc-cache -fv
 
 -----------------------------------------------
 
+-sudo pacman -S fcitx5 fcitx5-unikey fcitx5-configtool fcitx5-gtk fcitx5-qt
+
+-sudo nano /etc/environment:
+
+```
+GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+SDL_IM_MODULE=fcitx
+GLFW_IM_MODULE=fcitx
+```
+-sway config: exec fcitx5 -d
+
+reboot 
+
+-config:fcitx5-configtool
+
+-------------------------------------------------
+
+
+
+
+
+
+
 
 package:blueman,pavucontrol,fastfetch,nemo
 
